@@ -1,0 +1,14 @@
+{
+  "agent_protocols_supported": [
+    "mcp-code-mode",
+    "a2a-1.0",
+    "ag-ui",
+    "mcp-tasks"
+  ],
+  "client_name": "JackAiPlatformOsHubApiPublicSubsetClient",
+  "language": "ruby",
+  "operation_count": 8,
+  "package_name": "jack_ai_platform_os_hub_api_public_subset",
+  "schema": "omniwrap.embedded-skill-manifest/v1",
+  "sha256": "8d9a50370841720af84fa7b8bede3eb6c4c430929627448ed300ae68b822043c"
+}

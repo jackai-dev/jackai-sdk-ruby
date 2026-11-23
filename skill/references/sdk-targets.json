@@ -1,0 +1,76 @@
+{
+  "contract_fingerprint": "c7ca5e5ebb4c092910ec72b371e188303358c5e34d2908c0a88f782a241162cf",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "jack_ai_platform_os_hub_api_public_subset@1.0.0",
+        "ecosystem": "RubyGems",
+        "entry": "OmniWrap::Client",
+        "import": "require \"jack_ai_platform_os_hub_api_public_subset\""
+      },
+      "operations": {
+        "failUsageQuota": {
+          "member": "fail_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/fail",
+          "resource": "kernel",
+          "signature": "def fail_usage_quota()"
+        },
+        "finalizeUsageQuota": {
+          "member": "finalize_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/finalize",
+          "resource": "kernel",
+          "signature": "def finalize_usage_quota()"
+        },
+        "getCurrentUser": {
+          "member": "get_current_user",
+          "method": "GET",
+          "path": "/user/me",
+          "resource": "user",
+          "signature": "def get_current_user()"
+        },
+        "getHealth": {
+          "member": "get_health",
+          "method": "GET",
+          "path": "/health",
+          "resource": "health",
+          "signature": "def get_health()"
+        },
+        "getSignupPolicy": {
+          "member": "get_signup_policy",
+          "method": "GET",
+          "path": "/user/auth/signup-policy",
+          "resource": "user",
+          "signature": "def get_signup_policy()"
+        },
+        "loginUser": {
+          "member": "login_user",
+          "method": "POST",
+          "path": "/user/auth/login",
+          "resource": "user",
+          "signature": "def login_user()"
+        },
+        "reserveUsageQuota": {
+          "member": "reserve_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/reserve",
+          "resource": "kernel",
+          "signature": "def reserve_usage_quota()"
+        },
+        "submitWaitlistRequest": {
+          "member": "submit_waitlist_request",
+          "method": "POST",
+          "path": "/user/auth/waitlist",
+          "resource": "user",
+          "signature": "def submit_waitlist_request()"
+        }
+      },
+      "package_directory": "../jack-ai-platform-os-hub-api-public-subset-ruby-sdk",
+      "package_manifest": "omniwrap_client.gemspec",
+      "reference": "api.md",
+      "renderer": "ruby"
+    }
+  ]
+}
